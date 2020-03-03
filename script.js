@@ -82,7 +82,7 @@ fetch(`https:/api.openweathermap.org/data/2.5/weather?lat=${coordLat}&lon=${coor
 //Step 1: initialize communication with the platform
 
 var platform = new H.service.Platform({
-  'apikey': '{w87CK2PGqu_DsWgSNdsZ0PBm8IT6xJj_KWNYONcK5Nc}'
+  'apikey': 'w87CK2PGqu_DsWgSNdsZ0PBm8IT6xJj_KWNYONcK5Nc'
 });
 var defaultLayers = platform.createDefaultLayers();
 
